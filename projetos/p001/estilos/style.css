@@ -1,0 +1,18 @@
+a {
+    font-family: Arial;
+    color: rgb(255, 75, 55);
+}
+body {
+    background-color: rgb(69, 255, 190);
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}

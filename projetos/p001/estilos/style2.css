@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(76, 203, 242);
+}
+p {
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(123, 245, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+    color: mediumblue;
+}

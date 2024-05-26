@@ -1,0 +1,5 @@
+@charset "UTF-8";
+* { /* Configurações globais das CSS */
+    height: 100%;
+    background-attachment: fixed;
+}

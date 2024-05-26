@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(66, 110, 255);
+        }
+
+        h1 {
+            text-align: center;
+            color: black;
+        }
+
+        p {
+            color: black;
+            text-align: center;
+        }
+    </style>
+    <title>Minha foto flexível</title>
+</head>
+<body>
+    <h1>Minha foto</h1>
+    <p>Aumente e diminui o tamanho da aba do seu navegador.</p>
+    <hr> <br>
+    <p>
+        <picture>
+            <source media="(min-width: 1250px)" srcset="imagens/GEK-g.jpg" type="image/jpg">
+            <source media="(min-width: 750px)" srcset="imagens/GEK-m.jpg" type="image/jpg">
+            <img src="imagens/GEK-p.jpg" alt="foto.jpg">
+        </picture>
+    </p>
+</body>
+</html>

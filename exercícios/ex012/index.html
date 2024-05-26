@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="GEK.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir este site em dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" controls loop>
+        <source src="audio/''Abate'' Felp 22 & Mc Pedrinho (Prod. Caio Passos).mp3" type="audio/mpeg">
+        <source src="audio/''Abate'' Felp 22 & Mc Pedrinho (Prod. Caio Passos).ogv" type="audio/ogg">
+        <source src="audio/''Abate'' Felp 22 & Mc Pedrinho (Prod. Caio Passos).wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="audio/''Abate'' Felp 22 & Mc Pedrinho (Prod. Caio Passos).mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+    <h1>Reproduzindo vídeos hospedados localmente</h1>
+    <p>Estes vídeos estão hospedados no meu próprio servidor.</p>
+    <video preload="metadata" width="300" controls autoplay loop>
+        <source src="video/video-1/meu-video.m4v" type="video/mp4">
+        <source src="video/video-1/meu-video.webm" type="video/webm">
+        <source src="video/video-1/meu-video.mp4" type="video/mp4">
+        <p>Infelizmente seu navegador não suporta reproduzir este video, mas você pode fazer o <a href="video/video-1/meu-video.mp4">download aqui</a>.</p>
+    </video>
+    <p>Vamos ver outro vídeo.</p>
+    <video preload="auto" poster="video/video-2/thumb-1.png" width="500" controls autoplay loop>
+        <source src="video/video-2/Meu-Video2-1.m4v" type="video/mp4">
+        <source src="video/video-2/meu-video2.mp4" type="video/mp4">
+        <source src="video/video-2/Meu-Video2-1.webm" type="video/webm">
+        <p>Infelizmente seu navegador não suporta executar este vídeo, mas você pode fazer o <a href="video/video-2/meu-video2.mp4">download aqui</a>.</p>
+    </video>
+
+    <h1>Reproduzindo vídeos em hospedagem externa</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BpiFI9QiBOw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
